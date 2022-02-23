@@ -5,22 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pactica.</title>
+    <style>
+        /* div {
+            background: red;
+            padding: 10px;
+        } */
+        p { 
+            background: blue;
+        }
+        strong {
+            background: goldenrod;
+        }
+    </style>
 </head>
 <body>
+    <div>
+        <p> mi pagina con <strong>estilos</strong> y javascript</p>
+
+    </div>
 
     <section>
         <form action="">
-            <label for="Input1">Primer Numero</label>
+            <label for="Input1">Primer <strong>Numero</strong> </label>
             <input  id="Input1" type="number">
             <label for="Input2">Segundo Numero</label>
-            <input id="Input2" type="number">
-            <button  onclick="onGetDatodosSuma()" type="button">
+            <input id="Input2" type="number" >
+            <button  onclick="onGetDatodosSuma()" type="button" >
                 calcular
             </button>
             <p id="resultado"></p>
         </form>
     </section>
 
+    <div>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure hic sequi distinctio in eaque, quae molestiae beatae. Laudantium in facere assumenda, voluptatum quas corrupti rerum debitis adipisci deleniti ducimus nobis?</p>
+    </div>
     <script src="./index.js"></script>
 </body>
 </html>
