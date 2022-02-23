@@ -10,11 +10,18 @@
             background: red;
             padding: 10px;
         } */
-        p { 
+        div p strong { 
             background: blue;
+        } 
+        strong {
+            background: goldenrod ;
+        }
+
+        strong {
+            background: red;
         }
         strong {
-            background: goldenrod;
+            background: rgb(27, 11, 11);
         }
     </style>
 </head>
@@ -26,7 +33,7 @@
 
     <section>
         <form action="">
-            <label for="Input1">Primer <strong>Numero</strong> </label>
+            <label class="prueba" for="Input1">Primer <strong>Numero</strong> </label>
             <input  id="Input1" type="number">
             <label for="Input2">Segundo Numero</label>
             <input id="Input2" type="number" >
@@ -37,9 +44,7 @@
         </form>
     </section>
 
-    <div>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure hic sequi distinctio in eaque, quae molestiae beatae. Laudantium in facere assumenda, voluptatum quas corrupti rerum debitis adipisci deleniti ducimus nobis?</p>
-    </div>
+        <p> Lorem ipsum dolor sit <strong>amet consectetur</strong>  adipisicing elit. Iure hic sequi distinctio in eaque, quae molestiae beatae. Laudantium in facere assumenda, voluptatum quas corrupti rerum debitis adipisci deleniti ducimus nobis?</p>
     <script src="./index.js"></script>
 </body>
 </html>
