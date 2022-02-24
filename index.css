@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.logo{
+    padding-left: 40px;
+}
+#barra-navegacion{
+    background: rebeccapurple;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    height: 10px;     
+}
+.elemnto1{
+    background: yellowgreen;
+}
+
+.elemnto2{
+    background: rgb(45, 46, 42);
+    box-sizing: border-box;
+
+}
+
+
+.btn1{
+    margin-left: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div p strong { 
+    background: rgb(32, 32, 138);
+} 
+
+.segundo-parrafo{
+    background: red !important;
+}
+.card-ususario {
+    background: rebeccapurple;
+}
